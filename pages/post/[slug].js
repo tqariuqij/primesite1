@@ -5,6 +5,7 @@ import Head from 'next/head';
 import styles from './Project.module.scss';
 import { getPosts, getPostDetails } from '../../graphqlFunctions';
 import PostDetails from '../../components/Blog/PostDetail';
+import SafeHydrate from '../../components/SafeHydrate';
 
 const PostItself = ({ post }) => {
   //   const router = useRouter();
@@ -26,7 +27,9 @@ const PostItself = ({ post }) => {
       />
 
       <div className=''>
-        <PostDetails post={post} />
+        <SafeHydrate>
+          <PostDetails post={post} />
+        </SafeHydrate>
       </div>
     </div>
   );
