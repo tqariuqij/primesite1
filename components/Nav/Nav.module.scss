@@ -1,0 +1,125 @@
+@import "../../styles/screens/screens.scss";
+@import "../../styles/elements/button";
+@import "../../styles/colors/colors";
+
+.navbar {
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: $white;
+  border-bottom: 1px solid $grey_200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    flex-grow: 1;
+    height: 40px;
+    max-width: 1160px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .container__logo {
+      cursor: pointer;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 40px;
+      width: 150px;
+    }
+    .menu__mobile {
+      cursor: pointer;
+    }
+    @include for-tablet-portrait-up {
+      .menu__mobile {
+        display: none;
+      }
+    }
+    .mobile__menu__hidden {
+      display: none;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+   
+      @include for-phone-only {
+        display: flex;
+        flex-direction: column;
+      }
+      @include for-tablet-portrait-up {
+        ul {
+          display: flex;
+          flex-direction: row;
+          gap: 30px;
+          justify-content: center;
+          align-items: center;
+          .showcase {
+            @include button_green();
+          }
+        }
+      }
+    }
+
+    @include for-phone-only {
+      .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        background-color: $white;
+        top: 51px;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        transition: all 200ms;
+
+        ul {
+          margin-top: 50px;
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+          justify-content: center;
+          align-items: center;
+          .showcase {
+            @include button_green();
+          }
+        }
+      }
+
+      .menu__mobile__inactive {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        background-color: $white;
+        top: 60px;
+        left: -100%;
+        width: 100vw;
+        height: 100vh;
+        transition: all 200ms;
+
+        ul {
+          margin-top: 50px;
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+          justify-content: center;
+          align-items: center;
+          .showcase {
+            @include button_green();
+          }
+        }
+      }
+    }
+  }
+}

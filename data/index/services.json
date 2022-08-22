@@ -1,0 +1,83 @@
+[
+  {
+    "Modified Date": "2022-07-18T17:33:51.894Z",
+    "Created Date": "2022-07-18T17:33:51.888Z",
+    "Created By": "admin_user_primekit_test",
+    "Description": "We develop sophisticated CRMs with these customizations; workflow automation, customer service, employee tracking, lead management, Reporting, email tracking and more.",
+    "Icon": "💻",
+    "Title": "CRM systems",
+    "_id": "1658165631888x605875162049744900"
+  },
+  {
+    "Modified Date": "2022-07-18T17:34:13.077Z",
+    "Created Date": "2022-07-18T17:34:13.068Z",
+    "Created By": "admin_user_primekit_test",
+    "Description": "We build dynamic and visually compelling learning solutions.",
+    "Icon": "📙",
+    "Title": "Online learning",
+    "_id": "1658165653068x511086432568242050"
+  },
+  {
+    "Modified Date": "2022-07-18T17:34:38.539Z",
+    "Created Date": "2022-07-18T17:34:38.532Z",
+    "Created By": "admin_user_primekit_test",
+    "Description": "We create personalised e-commerce experiences that let customers really feel they're interacting with your brand",
+    "Icon": "🛍️",
+    "Title": "Ecommerce",
+    "_id": "1658165678532x382063073256339260"
+  },
+  {
+    "Modified Date": "2022-07-18T17:35:00.728Z",
+    "Created Date": "2022-07-18T17:35:00.717Z",
+    "Created By": "admin_user_primekit_test",
+    "Description": "We believe that data visualization is powerful and can make any process work faster.",
+    "Icon": "🖥️",
+    "Title": "Dashboards",
+    "_id": "1658165700717x311638070276685900"
+  },
+  {
+    "Modified Date": "2022-07-18T17:35:38.824Z",
+    "Created Date": "2022-07-18T17:35:38.817Z",
+    "Created By": "admin_user_primekit_test",
+    "Description": "A serious PM tool which includes task scheduling, hassle-free file sharing, reporting features and many other employee benefits",
+    "Icon": "📝",
+    "Title": "Project management",
+    "_id": "1658165738817x606235605947942100"
+  },
+  {
+    "Modified Date": "2022-07-18T17:36:11.337Z",
+    "Created Date": "2022-07-18T17:36:11.332Z",
+    "Created By": "admin_user_primekit_test",
+    "Description": "A centralized booking platform system makes managing your business a breeze. You won't need to collect multiple information. You'll stay real-time and you won't need to spend ages preparing reservations.",
+    "Icon": "📅",
+    "Title": "Booking systems",
+    "_id": "1658165771332x124094995312944430"
+  },
+  {
+    "Modified Date": "2022-07-18T17:36:54.507Z",
+    "Created Date": "2022-07-18T17:36:54.496Z",
+    "Created By": "admin_user_primekit_test",
+    "Description": "He worked at a job that never seemed to change and he got home at 6 pm sharp every night.",
+    "Icon": "🛒",
+    "Title": "Marketplaces",
+    "_id": "1658165814496x662790818164025900"
+  },
+  {
+    "Modified Date": "2022-07-18T17:37:12.280Z",
+    "Created Date": "2022-07-18T17:37:12.276Z",
+    "Created By": "admin_user_primekit_test",
+    "Description": "App wrapping- We convert web applications to mobile applications",
+    "Icon": "📱",
+    "Title": "Mobile",
+    "_id": "1658165832276x934542785165686000"
+  },
+  {
+    "Modified Date": "2022-07-18T17:40:50.904Z",
+    "Created Date": "2022-07-18T17:40:50.896Z",
+    "Created By": "admin_user_primekit_test",
+    "Description": "Tell us about your requirements, and will build you a quality product 💯",
+    "Icon": "😎",
+    "Title": "Other? Tell us about it...",
+    "_id": "1658166050896x568928399773702300"
+  }
+]

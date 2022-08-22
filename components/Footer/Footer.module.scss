@@ -1,0 +1,35 @@
+@import "../../styles/colors/colors";
+@import "../../styles/elements/button";
+@import "../../styles/elements/text";
+@import "../../styles/screens/screens.scss";
+@import "../../styles/elements/button";
+
+.home_section_5 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 1px $grey_200 solid;
+
+  .home_section_5_container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto 0 auto;
+    max-width: 1160px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    p {
+      @include paragraph();
+    }
+    .icons_container {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      .linkz {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../styles/colors/colors";
+@import "../../styles/elements/input";
+@import "../../styles/elements/button";
+@import "../../styles/elements/text";
+
+.contact {
+  .container {
+    padding-top: 50px;
+    max-width: 500px;
+    padding-bottom: 50px;
+    margin: 0 auto 0 auto;
+  }
+}
+
+.input {
+  @include input();
+}

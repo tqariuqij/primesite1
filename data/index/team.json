@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "first_name": "Lonnard",
+    "last_name": "Rhymer",
+    "photo": "https://robohash.org/maximevoluptatemmodi.png?size=500x500&set=set1",
+    "bio": "Nibh sit amet commodo nulla facilisi. Nullam vehicula ipsum a arcu. Gravida neque convallis a cras semper auctor. At erat pellentesque adipiscing commodo.",
+    "team": "Sales"
+  },
+  {
+    "id": 2,
+    "first_name": "Melicent",
+    "last_name": "Sells",
+    "photo": "https://robohash.org/abnihilest.png?size=500x500&set=set1",
+    "bio": "Arcu ac tortor dignissim convallis aenean. Cras pulvinar mattis nunc sed blandit libero volutpat sed. Accumsan tortor posuere ac ut.",
+    "team": "Support"
+  },
+  {
+    "id": 3,
+    "first_name": "Brittney",
+    "last_name": "Henriksson",
+    "photo": "https://robohash.org/utipsumsaepe.png?size=500x500&set=set1",
+    "bio": "Sapien nec sagittis aliquam malesuada bibendum arcu. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Aliquet sagittis id consectetur purus.",
+    "team": "Sales"
+  },
+  {
+    "id": 4,
+    "first_name": "Crin",
+    "last_name": "Freeborn",
+    "photo": "https://robohash.org/etcorporisquo.png?size=500x500&set=set1",
+    "bio": "Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Orci sagittis eu volutpat odio. Sed viverra ipsum nunc aliquet bibendum.",
+    "team": "Support"
+  },
+  {
+    "id": 5,
+    "first_name": "Martynne",
+    "last_name": "Bushill",
+    "photo": "https://robohash.org/eumexercitationemqui.png?size=500x500&set=set1",
+    "bio": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+    "team": "Training"
+  },
+  {
+    "id": 6,
+    "first_name": "Kristyn",
+    "last_name": "Garrood",
+    "photo": "https://robohash.org/mollitiasuntiure.png?size=500x500&set=set1",
+    "bio": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "team": "Business Development"
+  }
+]

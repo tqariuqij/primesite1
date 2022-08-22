@@ -1,0 +1,16 @@
+@import "../colors/colors";
+
+@mixin input {
+  &:focus {
+    border: 2px solid $green_main();
+    font-weight: 500;
+  }
+
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  border: 1px solid $grey_500;
+  color: $green_main();
+  transition: all 1000 ease;
+}

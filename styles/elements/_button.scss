@@ -1,0 +1,64 @@
+@import "../colors/colors";
+
+@mixin button {
+  height: 35px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  transition: background-color 1s ease;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@mixin button_green {
+  @include button();
+  background-color: $green_main;
+  color: $white;
+  &:hover {
+    background-color: $green_dark;
+  }
+}
+
+@mixin button_green_outline {
+  @include button();
+  background-color: $white;
+  color: $green_main;
+  border: 1px solid $green_main;
+  &:hover {
+    background-color: $green_light;
+  }
+}
+
+@mixin button_green_text {
+  @include button();
+  background-color: $white;
+  color: $green_main;
+  &:hover {
+    background-color: $green_light;
+  }
+}
+
+@mixin button_grey_outline {
+  @include button();
+  background-color: $white;
+  color: $grey_600;
+  border: 1px $grey_500 solid;
+  &:hover {
+    background-color: $grey_200;
+  }
+}
+
+@mixin button_grey_text {
+  @include button();
+  background-color: $white;
+  color: $grey_600;
+  &:hover {
+    background-color: $grey_200;
+  }
+}

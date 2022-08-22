@@ -1,0 +1,33 @@
+@import "../../styles/elements/text";
+@import "../../styles/colors/colors";
+
+.service {
+  &:hover {
+    cursor: pointer;
+    background-color: $grey_200;
+  }
+  background-color: $grey_100;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  h1 {
+    @include paragraph();
+    font-size: 30px;
+  }
+  .service_details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    h5 {
+      @include h5();
+      font-size: 20px;
+    }
+    p {
+      @include paragraph();
+      color: #646464;
+    }
+  }
+}

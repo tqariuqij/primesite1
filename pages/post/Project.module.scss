@@ -1,0 +1,32 @@
+@import './styles/screens/screens.scss';
+@import './styles/elements/button';
+@import './styles/colors/colors';
+@import './styles/elements/text';
+
+.projects {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  border-bottom: 1px $grey_200 solid;
+
+  .projects_container {
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto 0 auto;
+    max-width: 1160px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  h4 {
+    @include h5();
+    font-size: 24px;
+    color: $grey_800;
+    font-weight: 800;
+  }
+  .our_work_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+  }
+}
