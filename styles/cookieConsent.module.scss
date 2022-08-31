@@ -1,0 +1,41 @@
+@import './colors/colors';
+@import './elements/button';
+@import './elements/text';
+@import './screens/screens.scss';
+@import './elements/button';
+
+.cookie {
+  position: sticky;
+  background-color: #45ae93;
+  bottom: 0.75rem;
+  width: 90%;
+  left: 1.75rem;
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+
+  p {
+    display: flex;
+    vertical-align: middle;
+    padding: 0.5rem;
+  }
+}
+.hidden {
+  display: none;
+}
+
+.cookie_inner {
+  display: flex;
+  vertical-align: middle;
+
+  button {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    margin: 0.5rem;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  .button_accept {
+    background-color: rgb(159, 61, 61);
+  }
+}

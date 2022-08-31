@@ -3,6 +3,7 @@ import Footer from '../Footer/Footer';
 import styles from './Layout.module.scss';
 import CookieConsent, { Cookies } from 'react-cookie-consent';
 import { DefaultSeo } from 'next-seo';
+import Consent from '../Consent';
 
 const Layout = ({ children }) => {
   return (
@@ -22,6 +23,7 @@ const Layout = ({ children }) => {
       />
       <Nav />
       {children}
+      <Consent />
       <Footer />
     </div>
   );
