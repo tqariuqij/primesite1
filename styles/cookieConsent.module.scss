@@ -6,7 +6,8 @@
 
 .cookie {
   position: sticky;
-  background-color: #45ae93;
+  background-color: #05a64b;
+  opacity: 0.8;
   bottom: 0.75rem;
   width: 90%;
   left: 1.75rem;
@@ -33,6 +34,7 @@
     margin: 0.5rem;
     font-size: medium;
     font-weight: bold;
+    opacity: 1;
   }
 
   .button_accept {
