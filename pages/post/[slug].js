@@ -17,12 +17,12 @@ const PostItself = ({ post }) => {
   return (
     <div>
       <NextSeo
-        title={`${post.title} | Prime Devs`}
-        defaultTitle={`${post.title} | Prime Devs`}
-        description={post.excerpt}
+        title={`${post?.title} | Prime Devs`}
+        defaultTitle={`${post?.title} | Prime Devs`}
+        description={post?.excerpt}
         openGraph={{
           url: 'https://www.primedevs.co/blog',
-          description: `${post.excerpt}`,
+          description: `${post?.excerpt}`,
         }}
       />
 

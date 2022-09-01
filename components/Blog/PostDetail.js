@@ -58,14 +58,14 @@ export default function PostDetails({ post }) {
               justifyContent='space-between'
             >
               <Typography variant='h2' gutterBottom component='div'>
-                {post.title}
+                {post?.title}
               </Typography>
             </Stack>
 
             <Stack direction='row' spacing={1} alignItems='center'>
               <Avatar
                 alt='Company logo'
-                src={post.author.photo.url}
+                src={post.author?.photo.url}
                 sx={{ height: '26px', width: '26px' }}
               />
               <FiberManualRecordRoundedIcon
@@ -78,7 +78,7 @@ export default function PostDetails({ post }) {
                 component='div'
                 color='text.secondary'
               >
-                {post.author.name}
+                {post.author?.name}
               </Typography>
               <FiberManualRecordRoundedIcon
                 fontSize='small'
@@ -90,7 +90,7 @@ export default function PostDetails({ post }) {
                 component='div'
                 color='text.secondary'
               >
-                {moment(post.createdAt).format('MMM DD, YYYY')}
+                {moment(post?.createdAt).format('MMM DD, YYYY')}
               </Typography>
             </Stack>
           </Stack>
@@ -99,7 +99,7 @@ export default function PostDetails({ post }) {
         <Stack direction='column' spacing={2}>
           <CardMedia
             component='img'
-            image={post.featuredImage.url}
+            image={post?.featuredImage.url}
             alt='Project Main Image'
             sx={{
               borderRadius: '10px',
@@ -110,7 +110,7 @@ export default function PostDetails({ post }) {
           />
           <CardContent>
             <Typography gutterBottom variant='h5' component='div'>
-              {post.title}
+              {post?.title}
             </Typography>
             <Typography variant='body1' gutterBottom color='text.secondary'>
               <RichText content={post.content.raw.children} />

@@ -53,6 +53,7 @@ const Navbar = () => {
                 src={'/logo.png'}
                 layout={'fill'}
                 objectFit={'contain'}
+                alt='logo'
               />
             </Link>
           </div>
