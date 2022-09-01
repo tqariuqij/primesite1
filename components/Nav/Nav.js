@@ -53,6 +53,7 @@ const Navbar = () => {
                 src={'/logo.png'}
                 layout={'fill'}
                 objectFit={'contain'}
+                alt='logo'
               />
             </Link>
           </div>
@@ -71,7 +72,7 @@ const Navbar = () => {
                   </Button>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href='/post'>
                   <Button
                     variant='text'
@@ -82,7 +83,7 @@ const Navbar = () => {
                     Blog
                   </Button>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href='/contact'>
                   <Button
