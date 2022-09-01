@@ -71,7 +71,7 @@ const Navbar = () => {
                   </Button>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href='/post'>
                   <Button
                     variant='text'
@@ -82,7 +82,7 @@ const Navbar = () => {
                     Blog
                   </Button>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href='/contact'>
                   <Button
